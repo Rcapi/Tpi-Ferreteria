@@ -1,0 +1,25 @@
+﻿@page
+@model Web.Pages.EmpleadoMainModel
+@{
+    ViewData["Title"] = "Menu de Empleado";
+}
+
+<div class="text-right mt-2 mr-2">
+    <form method="post" class="form-inline">
+        <button type="submit" class="btn btn-outline-danger" asp-page-handler="CerrarSesion">Cerrar Sesión</button>
+    </form>
+</div>
+
+<h1>@ViewData["Title"]</h1>
+<p>Bienvenido, @Model.NombreEmpleado</p>
+
+<div>
+    <h2>Operaciones:</h2>
+    <ul>
+        <li><a asp-page-handler="ABMProductos">Agregar/Eliminar/Modificar Productos</a></li>
+        <li><a asp-page-handler="ABMClientes">Agregar/Eliminar/Modificar Clientes</a></li>
+        <li><a asp-page-handler="DatosUsuarioEmpleado">Modificar Datos de Usuario</a></li>
+        <li><a asp-page-handler="Venta">Grafico de Ventas</a></li>
+        <li><a asp-page-handler="VerVentas">Ver Ventas</a></li>
+    </ul>
+</div>

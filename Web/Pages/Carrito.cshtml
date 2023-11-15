@@ -1,0 +1,76 @@
+﻿@page
+@model Web.Pages.CarritoModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carrito de Compras</title>
+    <!-- Agrega estilos CSS según sea necesario -->
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Carrito de Compras</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+                <th>Total</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.ListaCarrito != null && Model.ListaCarrito.Any())
+            {
+                foreach (var producto in Model.ListaCarrito)
+                {
+                    <tr>
+                        <td>@producto.Nombre</td>
+                        <td>@producto.Precio</td>
+                        <td>1</td> <!-- La cantidad siempre es 1 por cada producto en el carrito -->
+                        <td>@producto.Precio</td> <!-- El total es igual al precio para un solo producto -->
+                        <td>
+                            <!-- Puedes agregar botones de acciones según sea necesario -->
+                            <form method="post">
+                                <button type="submit" asp-page-handler="EliminarProducto" asp-route-codigo="@producto.Codigo">Eliminar</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="5">El carrito está vacío.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <p>Total: $@Model.Total</p>
+
+    <form method="post" asp-page-handler="RealizarCompra">
+        <button type="submit">Realizar Compra</button>
+    </form>
+
+    <script>
+        // El script JavaScript no necesita cambios para esta modificación.
+    </script>
+
+</body>
+</html>

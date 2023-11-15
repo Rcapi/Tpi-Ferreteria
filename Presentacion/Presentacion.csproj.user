@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="ABMClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ABMElementoDeSeguridad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ABMElementoDeSujecion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ABMEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ABMHerramientaDeMano.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ABMHerramientasElectricas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ABMMaterialesDeConstruccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ABMProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ActElementoDeSeguridad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ActElementoDeSujecion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ActHerramientaElectrica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ActMaterialDeConstruccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Carrito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Compra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DatosUsuarioCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DatosUsuarioEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formIngreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formMainAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formMainCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formMainEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ActHerramientaDeMano.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MisCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ModificarDatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RegistroCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RegistroEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SeleccionarTipoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Venta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VerVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

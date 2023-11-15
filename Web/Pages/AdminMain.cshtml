@@ -1,0 +1,24 @@
+﻿@page
+@model Web.Pages.AdminMainModel
+
+@{
+    ViewData["Title"] = "Ferreteria El Capi - Panel de Administrador";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="text-center">
+                <h1 class="display-4">Bienvenido, @Model.NombreAdmin</h1>
+                <ul class="list-group">
+                    <li class="list-group-item"><a asp-page="/AbmCliente">Gestión de Clientes</a></li>
+                    <li class="list-group-item"><a asp-page="/AbmEmpleado">Gestión de Empleados</a></li>
+                    <li class="list-group-item"><a asp-page="/AbmProducto">Gestión de Productos</a></li>
+                </ul>
+                <form method="post">
+                    <button type="submit" class="btn btn-danger" asp-page-handler="CerrarSesion">Cerrar Sesión</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Entidades.Usuario">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAAAAEACAAgAgAAAAAAgAAAAAAAgAAEAA=</HashCode>
+      <FileName>Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Proveedores">
+    <Position X="6" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAgAAAQCAAgAgAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Proveedores.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Producto" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Entidades.Herramientas">
+    <Position X="7.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Herramientas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.MaterialesDeConstruccion">
+    <Position X="9.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAABA=</HashCode>
+      <FileName>MaterialesDeConstruccion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.ElementoDeSujecion">
+    <Position X="11.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAIA=</HashCode>
+      <FileName>ElementoDeSujecion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.ElementoDeSeguridad">
+    <Position X="13.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>ElementoDeSeguridad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.HerramientaDeMano">
+    <Position X="6.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HerramientaDeMano.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.HerramientaElectrica">
+    <Position X="8.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>HerramientaElectrica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Producto">
+    <Position X="10.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAABAAAAAAgAARgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Producto.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Ventas" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Entidades.Ventas">
+    <Position X="10.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Ventas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
